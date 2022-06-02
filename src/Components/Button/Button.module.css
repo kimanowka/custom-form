@@ -1,0 +1,19 @@
+.btn {
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 3px;
+  font-size: 24px;
+  box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.5);
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.btn:hover {
+  background-color: #8ecae6;
+  opacity: 0.8;
+}
+.btn:active {
+  box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.5);
+  transform: scale(0.9, 0.9);
+}
